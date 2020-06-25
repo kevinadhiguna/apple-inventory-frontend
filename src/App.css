@@ -1,38 +1,182 @@
-.App {
+.Title{
+  font-family: Helvetica;
+  color: #eee;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
+  /*margin: auto;*/
+  /*height: 100vh;*/
   min-height: 100vh;
+  background: repeating-linear-gradient(#55CBD3, #C7DAC7, #FFB68C, #FE8E7B, #FF6787);
+}
+.Logo{
+  height: 30px;
+  width: 30px;
+  padding-right: 5px;
+}
+.Imgs{
+  padding-bottom: 20px;
+}
+.Up{
+  padding-bottom: 5%;
   display: flex;
+  justify-content: space-evenly;
+}
+.Down{
+  display: flex;
+  justify-content: space-evenly;
+}
+.iPhone_img{
+  height: 360px;
+}
+.appleWatch_img{
+  height: 300px;
+}
+.macBookPro_img{
+  height: 360px;
+}
+.Greeting{
+  font-family: 'Lucida Sans';
+  font-size: 40px;
+  padding-top: 5px;
+  text-align: center;
+}
+.AddProduct{
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+}
+.APtitle{
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: #CE5374;
+}
+.StockDetail{
+  margin-left: 15px;
+}
+.NPtagline,
+.ASEtagline,
+.FUtagline,
+.CreditTagline{
+  font-family: 'Franklin Gothic Medium';
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+.CreateButton,
+.AddButton,
+.UploadButton,
+.ASEbutton{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.CreateButton{
+  background: linear-gradient(#FFE985,#FA742B);
+  margin-left: 5px;
+}
+.StockEventTable_Card{
+  margin: 12px 0;
+  border: 2px solid #eee;
+  border-radius: 3px;
+  padding: 24px;
+  margin-right: 5px;
+}
+.AddStockEvent{
+  text-align: center;
+  padding-top: 10%;
+}
+.AddButton{
+  background: linear-gradient(#90F7EC,#32CCBC);
+  margin-bottom: 10px;
+}
+.ASEbutton{
+  background: linear-gradient(#81FFEF,#F067B4);
+  margin-left: 10px;
+}
+/* File Upload */
+.V_Centre{
+  align-self: center;
+}
+.FileUpload{
+  border: 2px solid #66CDAA;
+  border-radius: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  max-width: 410px;
+  margin: auto;
+  padding: 12px 24px;
+  background:linear-gradient(#FDC7D7, #FF9DE6, #A5D8F3, #E8E500);
+  /*
+    background-color:orange; //Used only if you want only one primary color 
+  */
+}
+.UploadButton{
+  margin-top: 5%;
+  margin-left: 40%;
+  background:linear-gradient(#CE9FFC, #7367F0);
+}
+.Progress,
+.Progress_Seek{
+  height: 3px;
+}
+.Progress{
+  background-color: #eeeeee;
+  margin: 24px;
+}
+.Progress_Seek{
+  background-color: #00FF7F;
+}
+.Kevin,
+.Alex{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+.Kevin{
+  margin-left: 20%;
+}
+.Alex{
+  margin-right: 20%;
+  justify-content: flex-end;
+}
+.KevinName,
+.AlexName{
+  font-family: Helvetica;
+  font-size: 40px;
+  color: black;
+  padding-top: 20px;
+}
+.KevinName{
+  padding-left: 20px;
+}
+.AlexName{
+  padding-right: 20px;
+}
+.KevinPhoto,
+.AlexPhoto{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.ProfileContent{
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.GithubLogo1,
+.GithubLogo2{
+  height: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.GithubLogo1{
+  padding-left: 20px;
+}
+.GithubLogo2{
+  padding-left: 188px;
 }
