@@ -36,7 +36,7 @@ class App extends Component{
     const fetchedProducts = productsRes.data;
     const fetchedStockEvents = stockEventsRes.data;
 
-    this.setState({ fetchedProducts, fetchedStockEvents })
+    this.setState({ fetchedProducts, fetchedStockEvents });
   }
 
   render(){
@@ -44,7 +44,7 @@ class App extends Component{
     return (
       <div className="App">
         <BrowserRouter>
-          <Nav></Nav>
+          <Nav />
           <Switch>
             <Route exact path="/">
               <Home />

@@ -4,8 +4,6 @@
   text-align: center;
 }
 .App{
-  /*margin: auto;*/
-  /*height: 100vh;*/
   min-height: 100vh;
   background: repeating-linear-gradient(#55CBD3, #C7DAC7, #FFB68C, #FE8E7B, #FF6787);
 }

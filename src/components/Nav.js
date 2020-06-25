@@ -21,14 +21,14 @@ export default () => (
                 <NavDropdown title="More" id="collasible-nav-dropdown">
                   <NavDropdown.Item href="/credit">Credit</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="https://reactjs.org/">ReactJS</NavDropdown.Item>
-                  <NavDropdown.Item href="https://strapi.io/">Strapi</NavDropdown.Item>
+                  <NavDropdown.Item href="https://github.com/kevinadhiguna/apple-inventory-frontend">Front-End</NavDropdown.Item>
+                  <NavDropdown.Item href="https://github.com/kevinadhiguna/apple-inventory-backend">Back-End</NavDropdown.Item>
                   <NavDropdown.Item href="https://www.apple.com/">Apple Official Website</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Nav>
-                <Nav.Link href="https://about.lovia.life/blog/">Read Blog</Nav.Link>
-                <Nav.Link href="https://github.com/kevinadhiguna/apple-inventory-frontend">Github</Nav.Link>
+                <Nav.Link href="https://about.lovia.life/react-js-x-strapi-apple-inventory-management-system/">Read Blog</Nav.Link>
+                <Nav.Link href="https://github.com/kevinadhiguna/">Github</Nav.Link>
               </Nav>
             </Navbar.Collapse>
         </Navbar>
