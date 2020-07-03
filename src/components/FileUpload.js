@@ -53,28 +53,30 @@ export default class FileUpload extends Component{
         const {percent, submitted, loading} = this.state;
         console.log("FileUpload.render percent", percent);
         return(
-            <div>
-                <div className="FUtagline">
-                    <p className="FUtitle">Cinematic in Every Sense.</p>
-                </div>
-                <div className="FileUpload">
-                <h1>Strapi File Manager</h1>
-                <form onSubmit={this.handleSubmit}>
-                    <input 
-                        type="file"
-                        onChange={this.handleChange} 
-                        />
-                    <button className="UploadButton">Submit</button>
-                </form>
-                {submitted &&
-                    <div className="Progress">
-                        <div className="Progress_Seek" style={{width: `${percent}%`}}></div>
+            <div className="AppUpload">
+                <div className="V_Centre">
+                    <div className="FUtagline">
+                        <p className="FUtitle">Cinematic in Every Sense.</p>
                     </div>
-                }
+                    <div className="FileUpload">
+                        <h1>Strapi File Manager</h1>
+                        <form onSubmit={this.handleSubmit}>
+                            <input 
+                                type="file"
+                                onChange={this.handleChange} 
+                                />
+                            <button className="UploadButton">Submit</button>
+                        </form>
+                        {submitted &&
+                            <div className="Progress">
+                                <div className="Progress_Seek" style={{width: `${percent}%`}}></div>
+                            </div>
+                        }
 
-                {loading &&
-                    <p>Uploading...</p>
-                }
+                        {loading &&
+                            <p>Uploading...</p>
+                        }
+                    </div>
                 </div>
             </div>
         );

@@ -64,11 +64,7 @@ class App extends Component{
                 />
             </Route>
             <Route exact path="/upload">
-              <div className="AppUpload">
-                <div className="V_Centre">
-                  <FileUpload />
-                </div>
-              </div>
+              <FileUpload />
             </Route>
             <Route exact path="/credit">
               <Credit />
