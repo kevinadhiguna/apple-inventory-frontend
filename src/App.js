@@ -25,13 +25,15 @@ class App extends Component{
   //LifeCycle Method
   async componentDidMount(){
     const productsRes = await axios({
-      method: 'GET',
-      url: 'http://localhost:1337/products'
-    })
+        method: "GET",
+        // url: 'http://localhost:1337/products'
+        url: `${process.env.REACT_APP_SERVER_URL}/products`,
+    });
     const stockEventsRes = await axios({
-      method: 'GET',
-      url: 'http://localhost:1337/stockevents'
-    })
+        method: "GET",
+        // url: 'http://localhost:1337/stockevents'
+        url: `${process.env.REACT_APP_SERVER_URL}/stockevents`,
+    });
 
     const fetchedProducts = productsRes.data;
     const fetchedStockEvents = stockEventsRes.data;
