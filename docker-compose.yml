@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  build: .
+  container_name: apple-inventory-fe_ctr
+  ports:
+   - 3000:3000
