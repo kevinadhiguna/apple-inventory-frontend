@@ -123,4 +123,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Environment variables
+.env
+
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,visualstudiocode,react
