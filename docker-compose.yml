@@ -4,6 +4,6 @@ services:
   build: .
   container_name: apple-inventory-fe_ctr
   environment:
-    REACT_APP_SERVER_URL: http://localhost:1337
+    REACT_APP_SERVER_URL: ${REACT_APP_SERVER_URL}
   ports:
    - 3000:3000
