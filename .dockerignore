@@ -21,6 +21,7 @@ docker-compose.yaml
 
 ### Gitpod ###
 .gitpod.yaml
+.gitpod.yml
 
 ### Docs/README ###
 README.md
